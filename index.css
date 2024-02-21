@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.for-horizental {
+  display: flex;
+  list-style: none;
+}
+.header-class {
+  display: flex;
+  justify-content: space-between;
+}
+.display-flex-header img {
+  height: 100px;
+  width: 100px;
+}
+#header-horizontal {
+  display: flex;
+}
+.display-flex-header li {
+  display: inline-block;
+  padding: 30px;
+}
+.display-flex-header li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.display-flex-header li a:hover {
+  color: yellow;
+}
+#introductory-section {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/backgroundimage1.png);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-repeat: no-repeat;
+   background-position: 60% 25%; 
+}
+/* .introductory-section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); 
+} */
+.intro {
+  height: 100vh;
+  width: 50%;
+  font-size: 25px;
+  padding-top: 220px;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  background-color: pink;
+  border: 1px solid white;
+  padding: 10px 20px 20px 10px;
+  border-radius: 5px;
+  transition: all linear 0.4s;
+}
+.btn:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+#second-section{
+  background-color: pink;
+}
+#second-section p {
+  margin-bottom: 20px;
+}
+header {
+  position: absolute;
+  width: 100%;
+}
+h3 {
+  font-size: 50px;
+}
+.grid-required{
+  background-color: pink;
+}
+.display-flex-required {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  background-color: pink;
+  color: white;
+  margin-bottom: 40px;
+}
+.second-part img {
+  border-radius: 30px;
+}
+.display-flex-extended {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.principal1 {
+  border: 1px solid white;
+  background-color: pink;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px green;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+.principal1 h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.grid-required h4 {
+  text-align: center;
+  font-size: 30px;
+}
+i {
+  font-size: 30px;
+  color: red;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  transform: all linear 1s;
+}
+i:hover {
+  color: white;
+  height: 40px;
+}
+.hier-me {
+  background-color: pink;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 100px;
+  margin-bottom: 10px;
+}
+#bottom {
+  border: 2px solid white;
+  padding: 10px 20px 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: pink;
+  color: black;
+  transition: all linear 0.4s;
+}
+#bottom:hover {
+  background: white;
+  text-decoration: underline;
+}
+.contact {
+  background-color: red;
+}
+#contact {
+  background: pink;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 15px;
+}
+
+#contact-grid input[type="submit"] {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 25px;
+  font-size: 15px;
+}
+
+#contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 30px;
+}
+
+.full-width {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#submit {
+  background-color: yellow;
+  border-radius: 4px;
+  transition: all ease-in-out 2s;
+}
+#submit:hover {
+  background: white;
+}
+.footer-first-part {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-first {
+  margin: 100px;
+}
+
+.designed-by li {
+  display: inline-block;
+  padding: 20px;
+}
+.for-display-flex {
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+}
+footer{
+  background-color: pink;
+}
+.satish {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+}
